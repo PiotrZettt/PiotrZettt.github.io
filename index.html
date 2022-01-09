@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Piotr's Personal Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat&family=Noto+Sans:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<!--  -->
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+    </nav>
+
+    <h1>Hi, I am Piotr</h1>
+
+    <h5>A quality guy and a programer</h5>
+
+    <div class="about">
+      <p>
+        My curiousity and challenge loving pushed me through various stages in my
+        career where I was involved in designing, building, teaching and auditing.
+        I had a chance to experience work ethos from different
+        perspectives and learn about different approaches to problem solving
+      </p>
+      <p>Right now I decided to become a professional software developer and working hard towards my goals.</p>
+    </div>
+
+    <div class="bg_education">
+      <div class="container-fluid">
+        <div class="education" id="education">
+          <h4>Education</h4>
+          <p>A levels equivalent Polish, English, Maths</p>
+          <p>NVQ 2 Manufacturing Methods</p>
+          <p>NVQ 3 Business Improvement Techniques - Lean Six Sigma</p>
+
+          <p>Accreditation of Non-Destructive Testing - Conductivity and Hardness</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="bg_work">
+      <div class="container-fluid">
+        <div class="work" id="work">
+
+          <h4>Work</h4>
+          <p>1999-2002 English Teacher in Polish Army</p>
+          <p>2002-2004 Lead Sign Designer at Noe Ltd Poland</p>
+          <P>2004-2009 Boat Builder at Sealine, UK</p>
+          <p>2010-... Quality Auditor at Superform, UK</p>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="bg_skills">
+      <div class="container-fluid">
+        <div class="skills" id="skills">
+
+          <h4>Skills</h4>
+          <p>Extensive knowledge of Quality Management System</p>
+          <p>Six Sigma Keizen FMEA</p>
+          <p>MS Office</p>
+          <p>Good understanding of Python, Django, Swift, HTML, CSS, JavaScript</p>
+          <p>FLT Licence</p>
+          <p>Playing Music<button type="button" name="button" onclick="playMusic()" class="audioButton ml-2"><i class="audioIcon spinner-border spinner-border-sm" role="status" aria-hidden="true"></i></button></p>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bg_contact">
+      <div class="container-fluid">
+        <div class="contact" id="contact">
+
+          <h4>Contact</h4>
+          <p><i class="fas fa-at mr-2"></i><a href="mailto:webmaster@example.com">Email</a></p>
+          <p><i class="fab fa-linkedin-in mr-2"></i><a href="https://linkedin.com/in/piotr-zielinski-699a21148">LinkedIn</a></p>
+          <p><i class="fab fa-github mr-2"></i><a href="https://github.com/PiotrZettt">Git</a></p>
+
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="btn disappear" id="myBtn"><i class="fal fa-arrow-alt-circle-up"></i></a>
+
+  </div>
+
+  <script>
+    window.onscroll = function() {
+      myFunction()
+    };
+
+    let navbar = document.getElementById("navbar");
+    let backButton = document.getElementById("myBtn")
+    let sticky = navbar.offsetTop;
+    let audioIcon =  document.querySelector(".audioIcon");
+
+    let audio = new Audio("static/audio/music.mp3");
+    audio.addEventListener('loadeddata', function() {
+      audioIcon.classList.value = "audioIcon fas fa-play"
+    });
+    audio.addEventListener('ended', function() {
+      audioIcon.classList.value = "audioIcon fas fa-play"
+      console.log(audioIcon.classList)
+    });
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky + 80) {
+        navbar.classList.add("sticky")
+        backButton.classList.remove("disappear");
+
+      } else {
+        navbar.classList.add("sticky");
+        backButton.classList.add("disappear");
+      }
+    }
+
+    function playMusic() {
+      if (audio.paused) {
+        audio.play();
+        audioIcon.classList.value = "audioIcon fas fa-pause";
+      } else {
+        audio.pause();
+        audioIcon.classList.value = "audioIcon fas fa-play";
+      }
+    }
+  </script>
+</body>
+
+</html>
